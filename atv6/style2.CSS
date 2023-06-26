@@ -1,0 +1,58 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #8cea87;
+}
+
+body {
+    background: #089874;
+}
+
+.navigation {
+    position: fixed;
+    top: 0 right 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1db815;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+
+.navigation ul li a {
+    color: #8cea87;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+#toggle-1 {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#mostra {
+    display: none;
+}
+
+#toggle-1:checked~#mostra {
+    display: block;
+}
